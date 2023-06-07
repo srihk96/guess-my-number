@@ -1,0 +1,95 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: black;
+  color: whitesmoke;
+}
+
+header {
+  position: relative;
+  height: 40vh;
+  border-bottom: 1px solid gray;
+}
+
+main {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 40rem;
+  font-size: 2.5rem;
+}
+
+/* ELEMENTS */
+
+h1 {
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+  top: 50%;
+  left: 33.5%;
+}
+
+h3 {
+  position: absolute;
+  font-size: 1.4rem;
+  text-align: center;
+  top: 2.5%;
+  left: 80%;
+}
+
+.btn-again {
+  position: absolute;
+  top: 2.5%;
+  left: 3%;
+  padding: 0.8em;
+  font-size: 1.8rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+.number {
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 46.5%;
+  top: 75%;
+  text-align: center;
+  font-size: 6rem;
+  width: 15rem;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border: 1px solid whitesmoke;
+}
+
+.guess {
+  display: block;
+  width: 19rem;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-family: "Press Start 2P", cursive;
+  color: black;
+}
+
+.btn-check {
+  width: 20rem;
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Press Start 2P", cursive;
+}
